@@ -1,0 +1,19 @@
+.list{
+    display: flex;
+    height: 350px;
+    gap: 10px;
+     
+}
+.list img{
+    height: 350px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 6%;
+    animation: reverse;
+}
+.title{
+    color: aliceblue;
+}
+.list img:hover{
+    transform: scale(1.1);
+}

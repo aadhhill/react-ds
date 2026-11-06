@@ -31,7 +31,9 @@ function Home() {
           <button className="b2">Watch Trailer</button>
         </div>
        </div>
-       <MovieCard/>
+       <MovieCard Mtitle="New Releases"/>
+         <MovieCard Mtitle="Trending"/>
+
      </div>
     </div>
   )

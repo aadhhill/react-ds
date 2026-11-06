@@ -11,6 +11,8 @@
     width: 5%;
     display: flex;
     justify-content: center;
+    position: fixed;
+    background-color: #000000;
 
 }
 .sidebar :hover{
@@ -19,6 +21,7 @@
 .main{
     display: block;
     width: 95%;
+    margin-left: 60px;
 }
 .hero
 {

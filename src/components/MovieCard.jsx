@@ -9,10 +9,10 @@ import bheshma from"../assets/bheshma.jpg"
 
 
 
-function MovieCard() {
+function MovieCard({Mtitle}) {
   return (
     <div>
-    <h1 className="title">New This Week</h1>
+    <h1 className="title">{Mtitle}</h1>
     <div className="list">
       <img src={nine} alt="" />
       <img src={kgf2} alt="" />
@@ -20,10 +20,12 @@ function MovieCard() {
       {/* <img src={con} alt="" /> */}
       <img src={nun} alt="" />
       <img src={bheshma} alt="" />
-
-
-
-      
+      <img src={nine} alt="" />
+      <img src={kgf2} alt="" />
+      <img src={lucky2} alt="" />
+      {/* <img src={con} alt="" /> */}
+      <img src={nun} alt="" />
+      <img src={bheshma} alt="" />
     </div>
     </div>
   )
